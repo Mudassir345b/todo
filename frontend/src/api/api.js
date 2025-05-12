@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000/api/',
+  baseURL: 'https://mudassir345b-django--8000.prod1a.defang.dev/todos/',
 });
 
 export default API;
