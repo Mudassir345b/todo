@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://mudassir345b-django--8000.prod1a.defang.dev/todos/',
+  baseURL: 'https://tododatabiqsbackend-9fe440fe3362.herokuapp.com/api/',
 });
 
 export default API;
